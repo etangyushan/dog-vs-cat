@@ -67,6 +67,4 @@ target/
 # R Markdown
 .Rhistory
 
-images/
-test
-saved_models
+
