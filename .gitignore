@@ -68,5 +68,5 @@ target/
 .Rhistory
 
 images/
-proposal.ipynb
 test
+saved_models
