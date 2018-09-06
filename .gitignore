@@ -67,4 +67,7 @@ target/
 # R Markdown
 .Rhistory
 
+images/
+log/
+saved_models/
 
