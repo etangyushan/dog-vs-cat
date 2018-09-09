@@ -1,16 +1,16 @@
 # 区分猫和狗的图片
 
-** 开题报告 word 版: proposal.docx **
+**开题报告 word 版: proposal.docx**
 
-** 开题报告 pdf 版: proposal.pdf **
+**开题报告 pdf 版: proposal.pdf**
 
-** 项目报告 word 版: report.docx **
+**项目报告 word 版: report.docx**
 
-** 项目报告 pdf 版: report.pdf **
+**项目报告 pdf 版: report.pdf**
 
-** 模型训练：Introduction.ipynb **
+**模型训练：Introduction.ipynb**
 
-** 模型训练输出文档：Introduction.html **
+**模型训练输出文档：Introduction.html**
 
 # 开发软件：
 **jupyter notebook, OpenCV, tensorflow, Keras**
