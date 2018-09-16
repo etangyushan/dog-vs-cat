@@ -6,9 +6,9 @@ echo "0.获取项目源码"
 
 # 安装 anaconda
 echo "1.安装 anaconda"
-#wget http://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
+wget http://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
 chmod u+x Anaconda3-4.3.0-Linux-x86_64.sh
-#./Anaconda3-4.3.0-Linux-x86_64.sh
+./Anaconda3-4.3.0-Linux-x86_64.sh
 source ~/.bashrc
 
 
