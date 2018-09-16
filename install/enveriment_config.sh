@@ -6,12 +6,11 @@ echo "0.获取项目源码"
 
 # 安装 anaconda
 echo "1.安装 anaconda"
-wget http://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
+#wget http://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
 chmod u+x Anaconda3-4.3.0-Linux-x86_64.sh
-./Anaconda3-4.3.0-Linux-x86_64.sh
+#./Anaconda3-4.3.0-Linux-x86_64.sh
 source ~/.bashrc
 
-getchar()
 
 
 
@@ -19,19 +18,15 @@ getchar()
 echo "2.运行环境配置"
 conda env create -f ../requirements/dog-linux.yml
 
-getchar()
-
 
 # 安装 kaggle
 echo "3.安装 kaggle"
 pip install --user kaggle
 pip install kaggle-cli
 mkdir ~/.kaggle
-cp ../requirements/kaggle.json ~/.kaggle
+cp kaggle.json ~/.kaggle
 chmod 600 ~/.kaggle/kaggle.json
 kaggle competitions download -c dogs-vs-cats-redux-kernels-edition
-
-getchar()
 
 
 # 安装 unzip 解压数据集
@@ -40,8 +35,6 @@ sudo apt install unzip
 unzip test.zip
 unzip train.zip
 mv test train ../images
-
-getchar()
 
 
 ## 配置 jupyter notebook
@@ -58,7 +51,6 @@ c.NotebookApp.open_browser = False
 c.NotebookApp.port =8888
 "
 
-getchar()
 
 # 启动项目后台运行
 echo "6.启动项目后台运行"
