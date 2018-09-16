@@ -70,4 +70,5 @@ target/
 images/
 log/
 saved_models/
+install/
 
