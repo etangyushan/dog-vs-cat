@@ -12,6 +12,7 @@ getchar()
 
 # 获取项目源码
 echo "2.获取项目源码"
+
 git clone https://github.com/etangyushan/dog-vs-cat.git
 conda env create -f dog-vs-cat/requirements/dog-linux.yml
 
