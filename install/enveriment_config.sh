@@ -16,7 +16,7 @@ source ~/.bashrc
 
 # 运行环境配置 
 echo "2.运行环境配置"
-conda env create -f ../requirements/dog-linux.yml
+conda env create -f ../requirements/environment.yaml
 
 
 # 安装 kaggle
@@ -51,6 +51,8 @@ c.NotebookApp.open_browser = False
 c.NotebookApp.port =8888
 "
 
+# 修改默认的keras后台深度学习框架
+cp keras.json /home/ubuntu/.keras/keras.json
 
 # 启动项目后台运行
 echo "6.启动项目后台运行"
