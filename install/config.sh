@@ -2,7 +2,7 @@
 
 # 运行环境配置 
 echo "2.运行环境配置"
-conda env create -f ../requirements/dog-linux-gpu.yml
+conda env create -f ../requirements/dog-linux.yml
 
 
 # 安装 kaggle
