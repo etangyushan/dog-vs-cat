@@ -43,7 +43,7 @@ cp keras.json /home/ubuntu/.keras/keras.json
 # 启动项目后台运行
 echo "6.启动项目后台运行"
 cd 
-nohup jupyter notebook &
+echo "nohup jupyter notebook &"
 
 
 
