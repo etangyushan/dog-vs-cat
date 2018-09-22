@@ -1,3 +1,3 @@
 #!/bin/bash
 
-conda.sh
+./conda.sh
