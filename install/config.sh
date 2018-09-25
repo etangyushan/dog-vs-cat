@@ -12,7 +12,7 @@ pip install kaggle-cli
 mkdir ~/.kaggle
 cp kaggle.json ~/.kaggle
 chmod 600 ~/.kaggle/kaggle.json
-kaggle competitions download -c dogs-vs-cats-redux-kernels-edition
+/home/ubuntu/.local/bin/kaggle competitions download -c dogs-vs-cats-redux-kernels-edition
 
 
 # 安装 unzip 解压数据集
@@ -43,6 +43,7 @@ cp keras.json /home/ubuntu/.keras/keras.json
 # 启动项目后台运行
 echo "6.启动项目后台运行"
 cd 
+echo "source activate dog-project"
 echo "nohup jupyter notebook &"
 
 
